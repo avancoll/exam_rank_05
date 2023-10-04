@@ -23,8 +23,6 @@ class ATarget  {
 		std::string _type;
 	public:
 		ATarget(std::string type);
-		ATarget &operator=(ATarget const& src);
-		ATarget(ATarget const& src);
 		virtual ~ATarget();
 		
 		std::string getType() const;
