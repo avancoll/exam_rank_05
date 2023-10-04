@@ -15,15 +15,6 @@
 ATarget::ATarget(std::string type) : _type(type) {
 }
 
-ATarget &ATarget::operator=(ATarget const& src) {
-	_type = src._type;
-	return *this;
-}
-
-ATarget::ATarget(ATarget const& src) {
-	*this = src;
-}
-
 ATarget::~ATarget() {
 }
 
